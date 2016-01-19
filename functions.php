@@ -76,6 +76,15 @@ function bemmy_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	register_sidebar( array(
+		'name'          => 'Pre-footer area',
+		'id'            => 'pre-footer-area',
+		'before_widget' => '<div class="prefooter">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
 }
 endif;
 add_action( 'after_setup_theme', 'bemmy_setup' );

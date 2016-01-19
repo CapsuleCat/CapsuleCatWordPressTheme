@@ -34,3 +34,15 @@
     color: #808080;
   }
 }
+
+.pre-footer-area {
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 30px auto;
+
+  @media (min-width: 680px) {
+    max-width: 710px;
+    width: 80%;
+  }
+}

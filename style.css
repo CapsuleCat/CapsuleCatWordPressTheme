@@ -4,7 +4,7 @@ Theme URI: https://github.com/CapsuleCat/CapsuleCatWordPressTheme
 Author: Ivan Montiel
 Author URI: https://github.com/idmontie
 Description: BEM style WordPress theme using Bootstrap 4 and Font Awesome
-Version: 1.0.8
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bemmy
@@ -8400,6 +8400,21 @@ object {
   color: #808080;
 }
 
+/* line 38, sass/components/_footer.scss */
+.pre-footer-area {
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 30px auto;
+}
+@media (min-width: 680px) {
+  /* line 38, sass/components/_footer.scss */
+  .pre-footer-area {
+    max-width: 710px;
+    width: 80%;
+  }
+}
+
 /* line 1, sass/components/_navigation.scss */
 .navigation {
   background-color: #333;
@@ -8472,8 +8487,12 @@ object {
     width: 80%;
   }
 }
+/* line 14, sass/components/_page.scss */
+.page__main img {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.8), 0 0 1px rgba(0, 0, 0, 0.8);
+}
 
-/* line 15, sass/components/_page.scss */
+/* line 19, sass/components/_page.scss */
 .page__main--full-width {
   margin-left: auto;
   margin-right: auto;
@@ -8483,14 +8502,14 @@ object {
   padding-right: 0rem;
 }
 @media (min-width: 680px) {
-  /* line 15, sass/components/_page.scss */
+  /* line 19, sass/components/_page.scss */
   .page__main--full-width {
     max-width: 100%;
     width: 100%;
   }
 }
 
-/* line 30, sass/components/_page.scss */
+/* line 34, sass/components/_page.scss */
 .page__feature {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8506,13 +8525,13 @@ object {
   align-items: center;
 }
 
-/* line 46, sass/components/_page.scss */
+/* line 50, sass/components/_page.scss */
 .page__feature-container {
   display: block;
   width: 100%;
 }
 
-/* line 51, sass/components/_page.scss */
+/* line 55, sass/components/_page.scss */
 .page__title,
 .page__description {
   display: block;
@@ -8525,7 +8544,7 @@ object {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8), 0 0 5px rgba(0, 0, 0, 0.8);
 }
 @media (min-width: 680px) {
-  /* line 51, sass/components/_page.scss */
+  /* line 55, sass/components/_page.scss */
   .page__title,
   .page__description {
     max-width: 710px;
