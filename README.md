@@ -1,4 +1,4 @@
-# bemmy-wordpress-theme
+# Capsule Cat WordPress Theme
 WordPress Theme with BEM scss
 
 # Development
