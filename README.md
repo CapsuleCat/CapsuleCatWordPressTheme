@@ -1,5 +1,5 @@
 # Capsule Cat WordPress Theme
-WordPress Theme with BEM scss
+A WordPress Theme for Capsule Cat's websites and blogs
 
 # Development
 
